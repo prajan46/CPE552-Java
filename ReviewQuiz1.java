@@ -1,35 +1,35 @@
-public ______  ReviewQuiz1 {
-	_____ static void main(_______) {
+public __class____  ReviewQuiz1 {
+	___public__ static void main(_string[]args______) {
 
 
 	}
 }
 
 interface A {
-	public void f() _____
+	public void f() _;____
 }
 
-________ B extends A {
+___interface_____ B extends A {
   public void g();
 }
 
-________ C implements A {
+abstract class______ C implements A {
 
 }
 
-________ D implements A {
+__abstract class______ D implements A {
 	public void f() {
 		System.out.println("test");
 	}
 }
 
-________ E implements B {
+__abstract class______ E implements B {
 	public void f() {
 		System.out.println("test2");
 	}
 }
 
-________ F extends E {
+__ class_____ F extends E {
 	public void g() {
 		System.out.println("test3");
 	}
